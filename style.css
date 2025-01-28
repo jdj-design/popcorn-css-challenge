@@ -6,9 +6,10 @@ Main background - #D4A76A*/
 
 .header{
   background-color: #FFDBAA ;
-  text-decoration: #553100
-  padding-inline: 2rem;
-  border: 2rem;
+  text-decoration: #553100;
+  display:flex;
+  flex-direction: row;
+
 }
 
 button{
