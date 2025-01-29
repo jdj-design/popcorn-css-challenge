@@ -20,3 +20,7 @@ button{
 body{
   background-color: #d4a76a;
 }
+.nav{
+  display: flex;
+  gap: 15px;
+}
