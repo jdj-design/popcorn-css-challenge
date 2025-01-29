@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Apartment Search</title>
+</head>
+<body>
+  <h1>Apartment Search</h1>
+  <form>
+    <fieldset>
+      <label for="location">Location</label>
+        <input type="text" autofocus>
+
+
+      <label style="color: brown;">
+        Monthly Price Range
+        <input type="number" min="500" max="1500">
+      </label>
+
+      <label>
+        # Bathrooms
+        <select name="bathrooms" id="bathrooms">
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </label>
+      <br>
+      <label>
+        Pets allowed
+        <input type="checkbox" id="pets" name="pets" value="pets">Yes
+
+      </label>
+      <label>
+        Date availible
+        <input type="date" class="date" id="date" name="date">
+
+      </label>
+      <br>
+      <input type="submit">
+    </fieldset>
+
+
+
+  </form>
+
+
+</body>
+</html>
